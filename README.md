@@ -4,8 +4,8 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [ solution URL here](https://www.frontendmentor.io/solutions/3-columns-preview-card-component-DygwfOG23j)
+- Live Site URL: [live site URL here](https://mostafa-alfiky.github.io/3-columns-preview-card-componet-/)
 
 
 ### Built with
@@ -13,7 +13,7 @@ This is a solution to the [3-column preview card component challenge on Frontend
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid### What I learned
+- CSS Grid
 
 ## Author
 
