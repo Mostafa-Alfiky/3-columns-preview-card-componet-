@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.columns {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 290px;
+    padding: 40px;
+}
+
+.car-model {
+    font-family: 'Big Shoulders Display';
+    font-size: 32px;
+    color: white;
+}
+
+.car-promotion {
+    font-family: 'Lexend Deca';
+    font-size: 15px;
+    color:hsla(0, 0%, 100%, 0.75);
+    margin-bottom: 40px;
+}
+
+ .sedans-column {
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+ }
+
+.suvs-column {
+    background-color:  hsl(184, 100%, 22%);
+}
+
+.luxury-column {
+    background-color: hsl(179, 100%, 13%);
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+button {
+    width:120px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+
+.sedans-button {
+    color: hsl(31, 77%, 52%);
+}
+
+.sedans-button:hover {
+    background-color:  hsl(31, 77%, 52%);
+    color: white;
+}
+
+.suv-button {
+    color: hsl(184, 100%, 22%);
+}
+
+.suv-button:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+}
+
+.luxury-button {
+    background-color: white;
+    color: hsl(179, 100%, 13%);
+}
+
+.luxury-button:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: white;
+}
+
+img {
+    width: 60px;
+    height: auto;
+}
+
+@media(min-width:960px) {
+    .card {
+        flex-direction: row;
+        margin-top: 150px;
+    }
+
+    .sedans-column {
+        border-top-left-radius: 7px;
+        border-bottom-left-radius: 7px;
+        border-top-right-radius: 0;
+    }
+
+    .luxury-column {
+        border-top-right-radius: 7px;
+        border-bottom-right-radius: 7px;
+        border-bottom-left-radius: 0;
+    }
+}
